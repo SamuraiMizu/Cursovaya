@@ -19,14 +19,19 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 Form1 = new Form1();
-            Form1.ShowDialog();
+            Form2 Form2 = new Form2();
+            Form2.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Form4 Form4 = new Form4();
             Form4.ShowDialog();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

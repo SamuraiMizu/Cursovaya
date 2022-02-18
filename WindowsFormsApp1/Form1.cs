@@ -19,8 +19,7 @@ namespace WindowsFormsApp1
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form2 Form2 = new Form2();
-            Form2.ShowDialog();
+           
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -30,8 +29,7 @@ namespace WindowsFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 Form3 = new Form3();
-            Form3.ShowDialog();
+          
         }
     }
 }

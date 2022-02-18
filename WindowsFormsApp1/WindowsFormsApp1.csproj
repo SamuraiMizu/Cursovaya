@@ -119,5 +119,8 @@
   <ItemGroup>
     <None Include="Resources\png-clipart-computer-icons-scalable-graphics-graphics-cards-video-adapters-computer-hardware-computer-computer-logo.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Без названия.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
