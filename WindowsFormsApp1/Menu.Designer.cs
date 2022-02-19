@@ -75,6 +75,8 @@ namespace WindowsFormsApp1
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 3;
+            this.textBox1.Enter += new System.EventHandler(this.textBox1_Enter);
+            this.textBox1.Leave += new System.EventHandler(this.textBox1_Leave);
             // 
             // label2
             // 
@@ -100,6 +102,8 @@ namespace WindowsFormsApp1
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 6;
+            this.textBox2.Enter += new System.EventHandler(this.textBox2_Enter);
+            this.textBox2.Leave += new System.EventHandler(this.textBox2_Leave);
             // 
             // Menu
             // 
@@ -114,6 +118,7 @@ namespace WindowsFormsApp1
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Name = "Menu";
+            this.Load += new System.EventHandler(this.Menu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

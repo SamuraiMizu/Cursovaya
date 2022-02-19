@@ -48,15 +48,15 @@ namespace WindowsFormsApp1
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 100);
+            this.textBox2.Location = new System.Drawing.Point(9, 100);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(115, 20);
+            this.textBox2.Size = new System.Drawing.Size(118, 20);
             this.textBox2.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 84);
+            this.label3.Location = new System.Drawing.Point(6, 84);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(45, 13);
             this.label3.TabIndex = 4;
