@@ -14,7 +14,7 @@ namespace WindowsFormsApp1
     public partial class Menu : Form
     {
         // строка подключения к БД
-        string connStr = "server=caseum.ru;port=33333;user=st_2_13_19;database=st_2_13_19;password=17295789;";
+        string connStr = "server=chuc.caseum.ru;port=33333;user=st_2_19_13;database=is_2_19_st13_KURS;password=73015211;";
         //Переменная соединения
         MySqlConnection conn;
         //Логин и пароль к данной форме Вы сможете посмотреть в БД db_test таблице t_user
@@ -35,7 +35,7 @@ namespace WindowsFormsApp1
                 String login = textBox1.Text;
                 String pass = textBox2.Text;
                 //Запрос в БД на предмет того, если ли строка с подходящим логином и паролем
-                string sql = "SELECT * FROM client WHERE Login = @un and password = @up";
+                string sql = "SELECT * FROM client1 WHERE kont_nomer = @un and parol = @up";
                 //Открытие соединения
                 conn.Open();
                 //Объявляем таблицу
@@ -109,7 +109,7 @@ namespace WindowsFormsApp1
             // устанавливаем соединение с БД
             conn.Open();
             // запрос
-            string sql = $"SELECT * FROM client WHERE Login='{Login_}'";
+            string sql = $"SELECT * FROM client1 WHERE kont_nomer='{Login_}'";
             // объект для выполнения SQL-запроса
             MySqlCommand command = new MySqlCommand(sql, conn);
             // объект для чтения ответа сервера
