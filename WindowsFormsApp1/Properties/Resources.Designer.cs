@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApp1.Properties {
+namespace cursovaya.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace WindowsFormsApp1.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WindowsFormsApp1.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("cursovaya.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -63,10 +63,40 @@ namespace WindowsFormsApp1.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap img_389086 {
+            get {
+                object obj = ResourceManager.GetObject("img_389086", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_clipart_computer_icons_scalable_graphics_graphics_cards_video_adapters_computer_hardware_computer_computer_logo {
             get {
                 object obj = ResourceManager.GetObject("png-clipart-computer-icons-scalable-graphics-graphics-cards-video-adapters-comput" +
                         "er-hardware-computer-computer-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_icon {
+            get {
+                object obj = ResourceManager.GetObject("user-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap XZUbfiK3uFw {
+            get {
+                object obj = ResourceManager.GetObject("XZUbfiK3uFw", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -87,6 +117,36 @@ namespace WindowsFormsApp1.Properties {
         internal static System.Drawing.Bitmap Без_названия1 {
             get {
                 object obj = ResourceManager.GetObject("Без названия1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap изображение_2022_04_09_101401146_TzNHT {
+            get {
+                object obj = ResourceManager.GetObject("изображение_2022-04-09_101401146.TzNHT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap изображение_2022_04_09_102017617_FVkbe {
+            get {
+                object obj = ResourceManager.GetObject("изображение_2022-04-09_102017617.FVkbe", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap изображение_2022_04_09_102017617_rVS4n {
+            get {
+                object obj = ResourceManager.GetObject("изображение_2022-04-09_102017617.rVS4n", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

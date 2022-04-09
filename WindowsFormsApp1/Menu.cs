@@ -64,8 +64,8 @@ namespace WindowsFormsApp1
                     //Достаем данные пользователя в случае успеха
                     GetUserInfo(textBox1.Text);
                     this.Hide();
-                    Form1 form1 = new Form1();
-                    form1.ShowDialog();
+                    Form2 form2 = new Form2();
+                    form2.ShowDialog();
                 }
                 else
                 {
@@ -164,6 +164,18 @@ namespace WindowsFormsApp1
                 textBox2.PasswordChar = '\0';
                 textBox2.Text = "Введите пароль";
                 textBox2.ForeColor = Color.Gray;
+            }
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                textBox2.PasswordChar = '\0';
+            }
+            else
+            {
+                textBox2.PasswordChar = '*';
             }
         }
     }
